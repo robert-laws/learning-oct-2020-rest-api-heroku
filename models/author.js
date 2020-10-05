@@ -10,6 +10,7 @@ const AuthorSchema = new mongoose.Schema({
   },
   age: {
     type: Number,
+    required: true,
     min: 10,
     max: 100,
   },
