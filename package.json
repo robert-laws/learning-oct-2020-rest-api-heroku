@@ -1,0 +1,26 @@
+{
+  "name": "learning-oct-2020-rest-api-heroku",
+  "version": "1.0.0",
+  "description": "Code along for REST API app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-laws/learning-oct-2020-rest-api-heroku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robert-laws/learning-oct-2020-rest-api-heroku/issues"
+  },
+  "homepage": "https://github.com/robert-laws/learning-oct-2020-rest-api-heroku#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.7",
+    "nodemon": "^2.0.4"
+  }
+}
